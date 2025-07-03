@@ -5,7 +5,7 @@
 ;; Author: Daniel Chertkov
 ;; Version: 0.1
 ;; Keywords: gptel, MCP, tools, AI, sqlite
-;; Package-Requires: ((emacs "29.1") (dash "2.20.0") (s "1.13.0") (gptel " v0.9.8.5"))
+;; Package-Requires: ((emacs "29.1") (dash "2.20.0") (s "1.13.0") (gptel "0.9.8.5"))
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
