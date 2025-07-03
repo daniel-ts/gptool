@@ -1,0 +1,3 @@
+#+TITLE: gptool: My gptel compatible tools to augment LLM agents
+
+See [[https://github.com/karthink/gptel][karthink/gptel]].
