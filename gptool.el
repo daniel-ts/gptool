@@ -33,6 +33,7 @@
 (add-to-list 'load-path
              (file-name-directory (or load-file-name buffer-file-name)))
 
+(require 'gptool-project)
 (require 'gptool-sqlite)
 
 (gptel-make-tool
@@ -55,6 +56,24 @@ must conform to SQLite SQL, must start with either of SELECT, SHOW, DESCRIBE,
 EXPLAIN, VALUES, PRAGMA; and must under no circumstances modify the database in
 any way!"))
  :category "SQLite")
+
+(gptel-make-tool
+   :name "list_files_of_project"
+   :function #'projectile-current-project-files
+   :description "list the files by their relative path of the current project"
+   :args nil
+   :category "project")
+
+(gptel-make-tool
+ :name "read_project_file"
+ :function #'gptool-project--read-project-file
+ :description "read the contents of a file that belongs to the current project"
+ :args
+ (list '(:name "file_path"
+               :type string
+               :description
+               "the relative path of the file of the project whose contents are to be retrieved"))
+ :category "project")
 
 ;;;; Provide
 (provide 'gptool)
