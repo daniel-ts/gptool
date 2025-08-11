@@ -3,7 +3,7 @@
 ;; Copyright (C) 2025 Daniel Chertkov
 
 ;; Author: Daniel Chertkov
-;; Version: 0.1
+;; Version: 0.2
 ;; Keywords: tools, ai, convenience
 ;; Package-Requires: ((emacs "29.1") (gptel "0.9.8.5") (s "1.13.0") (dash "2.20.0"))
 

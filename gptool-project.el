@@ -3,7 +3,6 @@
 ;; Copyright (C) 2025 Daniel Chertkov
 
 ;; Author: Daniel Chertkov
-;; Version: 0.1
 ;; Keywords: gptel, MCP, tools, AI, project
 ;; Package-Requires: ((emacs "29.1") (projectile "2.9") (gptel "0.9.8.5"))
 
